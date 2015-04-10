@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Safety</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_more">MoreActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_more2">More2Activity</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_more3">More3Activity</string>
+    <string name="title_activity_mor">MorActivity</string>
+    <string name="title_activity_noon">NoonActivity</string>
+    <string name="title_activity_eve">EveActivity</string>
+    <string name="title_activity_clock">ClockActivity</string>
+    <string name="title_activity_food">FoodActivity</string>
+    <string name="title_activity_list_ativity">ListAtivity</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="title_activity_my">MyActivity</string>
+    <string name="title_activity_username">UsernameActivity</string>
+
+</resources>
