@@ -1,0 +1,243 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.nancy.safety.More2Activity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="肌黄"
+        android:textColor="#ffffff"
+        android:id="@+id/tab1"
+        android:background="@drawable/tab_normal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="便秘"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/tab2"
+        android:background="@drawable/tab_normal"
+        android:layout_alignTop="@+id/tab1"
+        android:layout_toEndOf="@+id/tab1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="完成注册"
+        android:id="@+id/finish"
+        android:background="@drawable/register_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/wait"
+        android:layout_above="@+id/finish"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/finish" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="高血压"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/tab_normal"
+        android:textColor="#ffffff"
+        android:id="@+id/tab3"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/tab2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="高血脂"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/tab_normal"
+        android:textColor="#ffffff"
+        android:id="@+id/tab4"
+        android:layout_alignBottom="@+id/tab3"
+        android:layout_toEndOf="@+id/tab3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="气虚"
+        android:id="@+id/tab5"
+        android:background="@drawable/tab_normal"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/tab1"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="体弱"
+        android:background="@drawable/tab_normal"
+        android:textColor="#ffffff"
+        android:id="@+id/tab6"
+        android:layout_alignBottom="@+id/tab5"
+        android:layout_alignStart="@+id/tab2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="失眠"
+        android:id="@+id/tab7"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/tab_normal"
+        android:textColor="#ffffff"
+        android:layout_alignBottom="@+id/tab6"
+        android:layout_toEndOf="@+id/tab6" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="多梦"
+        android:id="@+id/tab8"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/tab_normal"
+        android:textColor="#ffffff"
+        android:layout_alignBottom="@+id/tab7"
+        android:layout_toEndOf="@+id/tab7" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="鼻炎"
+        android:id="@+id/tab9"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/tab_normal"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/tab5" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="嗜睡"
+        android:id="@+id/tab10"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/tab_normal"
+        android:textColor="#ffffff"
+        android:layout_alignBottom="@+id/tab9"
+        android:layout_toEndOf="@+id/tab9" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="脚气"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/tab_normal"
+        android:textColor="#ffffff"
+        android:id="@+id/tab11"
+        android:layout_alignBottom="@+id/tab10"
+        android:layout_toEndOf="@+id/tab10" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="饱食"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/tab_normal"
+        android:textColor="#ffffff"
+        android:id="@+id/tab12"
+        android:layout_alignBottom="@+id/tab11"
+        android:layout_toEndOf="@+id/tab11" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="抑郁"
+        android:background="@drawable/tab_normal"
+        android:textColor="#ffffff"
+        android:id="@+id/tab13"
+        android:layout_below="@+id/tab9"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="多动"
+        android:id="@+id/tab14"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/tab_normal"
+        android:textColor="#ffffff"
+        android:layout_alignBottom="@+id/tab13"
+        android:layout_toEndOf="@+id/tab13" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="口疮"
+        android:id="@+id/tab15"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/tab_normal"
+        android:textColor="#ffffff"
+        android:layout_alignBottom="@+id/tab14"
+        android:layout_toEndOf="@+id/tab14" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发燥"
+        android:id="@+id/tab16"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/tab_normal"
+        android:textColor="#ffffff"
+        android:layout_alignBottom="@+id/tab15"
+        android:layout_toEndOf="@+id/tab15" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="口臭"
+        android:background="@drawable/tab_normal"
+        android:textColor="#ffffff"
+        android:id="@+id/tab17"
+        android:layout_below="@+id/tab13"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="甲亢"
+        android:id="@+id/tab18"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/tab_normal"
+        android:textColor="#ffffff"
+        android:layout_alignBottom="@+id/tab17"
+        android:layout_toEndOf="@+id/tab17" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="美体"
+        android:id="@+id/tab19"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/tab_normal"
+        android:textColor="#ffffff"
+        android:layout_alignBottom="@+id/tab18"
+        android:layout_toEndOf="@+id/tab18" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="节食"
+        android:id="@+id/tab20"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/tab_normal"
+        android:textColor="#ffffff"
+        android:layout_alignBottom="@+id/tab19"
+        android:layout_toEndOf="@+id/tab19" />
+</RelativeLayout>

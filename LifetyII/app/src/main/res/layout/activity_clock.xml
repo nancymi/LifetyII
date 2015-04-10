@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.nancy.safety.ClockActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/set_mor"
+        android:id="@+id/mtime" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/set_noon"
+        android:layout_marginTop="30dp"
+        android:id="@+id/ntime"
+        android:layout_below="@+id/mtime" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/set_eve"
+        android:id="@+id/etime"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/ntime" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下一步"
+        android:background="@drawable/register_btn"
+        android:id="@+id/finish"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/mtimec"
+        android:layout_above="@+id/ntime"
+        android:layout_alignEnd="@+id/finish"
+        android:layout_toEndOf="@+id/mtime" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/ntimec"
+        android:layout_above="@+id/etime"
+        android:layout_toEndOf="@+id/ntime"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/etimec"
+        android:layout_alignBottom="@+id/etime"
+        android:layout_toEndOf="@+id/etime"
+        android:layout_alignEnd="@+id/ntimec" />
+
+</RelativeLayout>
